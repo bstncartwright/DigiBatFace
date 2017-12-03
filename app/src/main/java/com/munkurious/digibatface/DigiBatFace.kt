@@ -294,7 +294,6 @@ class DigiBatFace : CanvasWatchFaceService()
 				{
 					if (((tickIndex.toDouble() / 127) * 100) <= batt) // put code for checking percentage
 					{
-
 					val tickRot = (tickIndex.toDouble() * Math.PI * 2.0 / 128).toFloat()
 					val innerX = Math.sin(tickRot.toDouble()).toFloat() * innerTickRadius
 					val innerY = (-Math.cos(tickRot.toDouble())).toFloat() * innerTickRadius
